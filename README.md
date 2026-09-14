@@ -88,6 +88,11 @@ Meta Ads / Google Ads / Portal / Web Sitesi / WhatsApp
 | [10](docs/10-bitrix24-gayrimenkul.md) | Bitrix24 gayrimenkul kullanım modeli |
 | [11](docs/11-crm-raporlama-kpi.md) | CRM raporlama ve KPI'lar |
 | [12](docs/12-crm-kurulum-kontrol-listesi.md) | CRM kurulum kontrol listesi |
+| [13](docs/13-veri-modeli-ve-zorunlu-alanlar.md) | CRM veri modeli ve zorunlu alanlar |
+| [14](docs/14-entegrasyon-mimarisi.md) | CRM entegrasyon mimarisi |
+| [15](docs/15-veri-koruma-ve-izinli-iletisim.md) | Veri koruma ve izinli iletişim notları |
+| [16](docs/16-yonetici-gunluk-kontrol.md) | Yönetici günlük CRM kontrolü |
+| [17](docs/17-sik-sorulan-sorular.md) | Gayrimenkul CRM sık sorulan sorular |
 | [Sözlük](docs/crm-sozlugu.md) | Türkçe CRM ve lead yönetimi sözlüğü |
 
 ---
@@ -99,6 +104,11 @@ Meta Ads / Google Ads / Portal / Web Sitesi / WhatsApp
 - [Lead Routing Kuralları JSON](templates/lead-routing-kurallari.json)
 - [WhatsApp Follow-up Şablonu](templates/whatsapp-followup-sablonu.md)
 - [CRM Günlük KPI Şablonu](templates/gunluk-crm-kpi.csv)
+
+## Teknik örnekler
+
+- [Sentetik örnek lead verisi](examples/ornek-lead-verisi.csv)
+- [Lead kayıt JSON Schema](schemas/lead-record.schema.json)
 
 ---
 
