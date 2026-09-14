@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Bu rehberi çalışmalarınızda kullanıyorsanız Koray Yalçın ve Gayrimenkul CRM Rehberi olarak atıf verebilirsiniz."
+title: "Gayrimenkul CRM Rehberi"
+type: software
+authors:
+  - family-names: "Yalçın"
+    given-names: "Koray"
+url: "https://github.com/korayyalcinorg/gayrimenkul-crm-rehberi"
+repository-code: "https://github.com/korayyalcinorg/gayrimenkul-crm-rehberi"
+keywords:
+  - CRM
+  - gayrimenkul CRM
+  - lead yönetimi
+  - lead nurturing
+  - marketing automation
+  - WhatsApp CRM
+  - PropTech
+  - real estate CRM
+license: "NOASSERTION"
