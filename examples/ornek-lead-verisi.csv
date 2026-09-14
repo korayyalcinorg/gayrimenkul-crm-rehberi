@@ -1,0 +1,5 @@
+lead_id,ad,ulke,dil,kaynak,kampanya,proje,butce_araligi,satin_alma_zamani,asama,atanan_temsilci,ilk_temas_dk,randevu,satis
+L-1001,Örnek Müşteri 1,TR,TR,Meta Ads,Kampanya-A,Proje-1,150000-200000 GBP,1-3 ay,Qualified,Temsilci-A,6,Evet,Hayır
+L-1002,Örnek Müşteri 2,DE,EN,Google Ads,Kampanya-B,Proje-2,200000-300000 GBP,0-30 gün,Appointment,Temsilci-B,4,Evet,Hayır
+L-1003,Örnek Müşteri 3,CY,TR,Web Form,Kampanya-C,Proje-1,100000-150000 GBP,Belirsiz,NR2,Temsilci-C,18,Hayır,Hayır
+L-1004,Örnek Müşteri 4,GB,EN,Meta Ads,Kampanya-D,Proje-3,300000+ GBP,0-30 gün,Won,Temsilci-B,3,Evet,Evet
