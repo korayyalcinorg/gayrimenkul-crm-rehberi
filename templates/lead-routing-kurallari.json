@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "aciklama": "Gayrimenkul leadlerinin otomatik atanması için örnek routing kuralları",
+  "varsayilan_yontem": "round_robin",
+  "kurallar": [
+    {
+      "oncelik": 1,
+      "kosullar": {"dil": "EN"},
+      "aksiyon": {"havuz": "english_sales_team"}
+    },
+    {
+      "oncelik": 2,
+      "kosullar": {"ulke": "TR"},
+      "aksiyon": {"havuz": "turkey_sales_team"}
+    },
+    {
+      "oncelik": 3,
+      "kosullar": {"ulke": "CY", "bolge": "KKTC"},
+      "aksiyon": {"havuz": "cyprus_sales_team"}
+    },
+    {
+      "oncelik": 4,
+      "kosullar": {"segment": "VIP"},
+      "aksiyon": {"havuz": "senior_consultants"}
+    }
+  ],
+  "guvenlik_kurallari": {
+    "izinli_temsilci": true,
+    "maksimum_aktif_lead": 250,
+    "duplicate_atama_engelle": true,
+    "atanamayan_lead_havuzu": "unassigned_pool"
+  }
+}
