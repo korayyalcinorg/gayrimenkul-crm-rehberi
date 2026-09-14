@@ -1,0 +1,12 @@
+sira,asama,kod,aciklama,sonraki_aksiyon
+1,Yeni Lead,NEW,Yeni oluşturulan ve henüz işlenmemiş lead,İlk temas
+2,İlk Temas,CONTACT_ATTEMPT_1,İlk arama veya mesaj girişimi yapıldı,Contacted veya NR1
+3,NR1,NO_RESPONSE_1,İlk temas girişimine yanıt yok,İkinci deneme
+4,NR2,NO_RESPONSE_2,İkinci temas girişimine yanıt yok,Üçüncü deneme
+5,NR3,NO_RESPONSE_3,Üçüncü temas girişimine yanıt yok,Nurturing veya pasif takip
+6,Contacted,CONTACTED,İki yönlü iletişim kuruldu,Qualification
+7,Qualified,QUALIFIED,Nitelikli satış fırsatı,Randevu veya proje sunumu
+8,Randevu,APPOINTMENT,Telefon online veya fiziksel görüşme planlandı,Görüşme sonucu
+9,Follow-up,FOLLOW_UP,Aktif karar ve takip süreci,Bir sonraki görev
+10,Satış,WON,Satış tamamlandı,Kapanış
+11,Kayıp,LOST,Fırsat kapandı,Kayıp nedeni
