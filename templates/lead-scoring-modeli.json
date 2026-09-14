@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "aciklama": "Gayrimenkul lead önceliklendirmesi için örnek scoring modeli",
+  "kurallar": [
+    {"alan": "satin_alma_zamani", "deger": "0-30 gun", "puan": 30},
+    {"alan": "satin_alma_zamani", "deger": "1-3 ay", "puan": 20},
+    {"alan": "satin_alma_zamani", "deger": "3-6 ay", "puan": 10},
+    {"alan": "butce_uyumu", "deger": "tam", "puan": 25},
+    {"alan": "butce_uyumu", "deger": "yakin", "puan": 15},
+    {"alan": "randevu", "deger": true, "puan": 25},
+    {"alan": "fiyat_listesi_istedi", "deger": true, "puan": 10},
+    {"alan": "odeme_plani_istedi", "deger": true, "puan": 15},
+    {"alan": "telefon_gorusmesi", "deger": true, "puan": 10},
+    {"alan": "gecersiz_telefon", "deger": true, "puan": -50},
+    {"alan": "ilgilenmiyor", "deger": true, "puan": -40}
+  ],
+  "segmentler": {
+    "hot": {"min": 70},
+    "warm": {"min": 40, "max": 69},
+    "cold": {"min": 0, "max": 39}
+  },
+  "not": "Puanlar örnektir. Gerçek satış verisiyle kalibre edilmelidir."
+}
