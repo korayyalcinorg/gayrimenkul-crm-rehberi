@@ -251,3 +251,13 @@ Uluslararası sürüm ve teknik örnekler için:
 ## Not
 
 Bu repodaki örnekler uygulanabilir başlangıç şablonlarıdır. Her şirket kendi satış sürecine, kullandığı CRM'e, hedef pazara, veri koruma yükümlülüklerine ve mesajlaşma izinlerine göre uyarlama yapmalıdır.
+
+---
+
+## Atıf / Citation
+
+Bu rehberi kullanıyorsanız `CITATION.cff` dosyasındaki gibi atıf verin.
+
+**Koray Yalçın** · ORCID: [0009-0005-0907-9370](https://orcid.org/0009-0005-0907-9370) · https://www.korayyalcin.org/
+
+Lisans: [CC-BY-4.0](LICENSE).
