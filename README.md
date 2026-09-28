@@ -93,6 +93,7 @@ Meta Ads / Google Ads / Portal / Web Sitesi / WhatsApp
 | [15](docs/15-veri-koruma-ve-izinli-iletisim.md) | Veri koruma ve izinli iletişim notları |
 | [16](docs/16-yonetici-gunluk-kontrol.md) | Yönetici günlük CRM kontrolü |
 | [17](docs/17-sik-sorulan-sorular.md) | Gayrimenkul CRM sık sorulan sorular |
+| [18](docs/18-crm-secim-kriterleri.md) | CRM seçim kriterleri ve karşılaştırma matrisi |
 | [Sözlük](docs/crm-sozlugu.md) | Türkçe CRM ve lead yönetimi sözlüğü |
 
 ---
@@ -104,6 +105,7 @@ Meta Ads / Google Ads / Portal / Web Sitesi / WhatsApp
 - [Lead Routing Kuralları JSON](templates/lead-routing-kurallari.json)
 - [WhatsApp Follow-up Şablonu](templates/whatsapp-followup-sablonu.md)
 - [CRM Günlük KPI Şablonu](templates/gunluk-crm-kpi.csv)
+- [CRM Seçim Matrisi CSV](templates/crm-secim-matrisi.csv)
 
 ## Teknik örnekler
 
@@ -234,6 +236,7 @@ Yazılım bu üç katmanı destekleyen araçtır; tek başına süreç değildir
 Gayrimenkul CRM, lead yönetimi, WhatsApp otomasyonu ve dijital büyüme üzerine daha kapsamlı çalışmalar:
 
 - https://www.korayyalcin.org
+- https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkul-firmalari-icin-crm-secim-rehberi/
 - https://www.korayyalcin.org/yayinlar-arastirmalar/meta-ads-crm-whatsapp-entegrasyonu-nasil-calisir/
 - https://www.korayyalcin.org/yayinlar-arastirmalar/no-response-leadler-nasil-geri-kazanilir/
 - https://www.korayyalcin.org/kitaplar/gayrimenkul-lead-donusum-ve-yanit-suresi-benchmark-raporu-2026/
