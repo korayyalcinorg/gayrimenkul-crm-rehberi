@@ -1,0 +1,11 @@
+kriter_no,kriter,soru,agirlik_1_5,urun_a_puan_0_2,urun_b_puan_0_2,urun_c_puan_0_2,kanit_notu,native_mi
+1,Otomatik atama (Round-Robin / kural),Lead ortada kalmadan sahipleniliyor mu?,5,,,,"Test: gece/hafta sonu kuyruğu + yeniden atama",
+2,Speed-to-Lead SLA + eskalasyon,İlk temas zaman damgası ve P90 alarmı var mı?,5,,,,"Test: SLA aşımında müdür bildirimi",
+3,WhatsApp ilk temas + handoff,API/şablon + lead kartına kayıt + insan handoff ölçülüyor mu?,5,,,,"Test: ilk HSM süresi (sn) + handoff süresi",
+4,Deduplication,Telefon/e-posta normalize edilip tek karta mı iniyor?,5,,,,"Test: +90/+44 ve aynı numara iki kampanyadan",
+5,Kapalı döngü (Meta CAPI / offline),Closed-Won platforma offline conversion olarak gidiyor mu?,4,,,,"Test: test satış event'i platformda görünüyor mu",
+6,Lead capture (webhook / native),Aracı kopya olmadan kaynak+UTM korunuyor mu?,4,,,,"Test: Meta Lead Ads + web form",
+7,Pipeline ve lost reason,Gayrimenkul aşamaları + zorunlu kayıp nedeni?,3,,,,"Test: lost nedeni olmadan kapama engeli",
+8,Çok dil / ülke routing,Dil ve ülke koduna göre atama mümkün mü?,3,,,,"KKTC / uluslararası ofisler için",
+9,Raporlama KPI,Contact / Appointment / Show-up / CPS temsilci bazlı mı?,4,,,,"Dashboard ekran görüntüsü veya export",
+10,30 gün canlı döngü,Sızıntıyı kapatan çekirdek 30 günde ayağa kalkıyor mu?,4,,,,"Kurulum planı + sahiplik",
