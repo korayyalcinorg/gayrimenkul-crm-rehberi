@@ -1,0 +1,9 @@
+crm_stage,olay_adi,meta_capi_event_onerisi,google_ads_conversion_action,deger_kurali,eslesme_anahtari,aciklama
+New Lead,lead_olustu,Lead,lead_form,0,lead_id|gclid,Form veya kanal üzerinden CRM'e düşen yeni kayıt; çoğu durumda platform zaten görür ve tekrar gönderilmez
+Contacted,temas_kuruldu,Contact,crm_contacted,sabit_goreli_dusuk,lead_id|hashed_phone|gclid,Temsilci ile ilk gerçek görüşme yapıldı
+Qualified,nitelikli_aday,QualifiedLead (özel olay),crm_qualified,sabit_goreli_orta,lead_id|hashed_phone|gclid,Bütçe lokasyon zamanlama ve niyet doğrulandı
+Appointment,ofis_ziyareti,Schedule,crm_office_visit,sabit_goreli_yuksek,lead_id|hashed_phone|gclid,Ofis veya şantiye ziyareti gerçekleşti
+Offer,teklif_verildi,SubmitApplication,crm_offer_sent,beklenen_deger,lead_id|hashed_phone|gclid,Birim ve ödeme planı içeren teklif verildi
+Deposit,kapora_alindi,Deposit (özel olay),crm_deposit,gercek_deger,lead_id|hashed_phone|gclid,Kapora veya ön ödeme alındı
+Won,satis_kapandi,Purchase,crm_sale_won,gercek_deger,lead_id|hashed_phone|gclid,Satış sözleşmesi imzalandı; kişi retargeting kitlesinden çıkarılır
+Lost,kayip,,,0,lead_id,Olay gönderilmez; kalıcı kayıp nedeniyle kitleden çıkarılır
