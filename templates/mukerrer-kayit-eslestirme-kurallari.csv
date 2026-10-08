@@ -1,11 +1,11 @@
 kural_id,alan,normalizasyon,eslesme_tipi,esik,aksiyon,aciklama
-R01,telefon,E.164 (bosluk tire parantez temizligi; 00 ise +; TR yerel 0 ile baslayan hat +90),tam,tam_eslesme,mevcut_karta_bagla,Ayni normalize numara acik kayitta varsa yeni lead acilmaz; aktivite mevcut sahibin kartina yazilir
-R02,eposta,trim ve kucuk harf,tam,tam_eslesme,mevcut_karta_bagla,Ayni e-posta ikinci ve sonraki basvuruyu yeni lead yapmaz. Nokta veya arti takma adi varsayilan olarak ayni adres sayilmaz
-R03,telefon_veya_eposta,R01 ve R02 anahtarlari,tam,anahtarlardan_biri,mevcut_karta_bagla,Vaka kurali: telefon veya e-posta eslesirse basvuru mevcut temsilciye aktivite olarak eklenir (ornek bildirim: Ayni Reklama Tekrar Tikladi)
-R04,ad_soyad_ve_proje,Turkce kucuk harf; fazla bosluk tek; proje kimligi oldugu gibi,bulanik,otomatik_birlestirme_yok,insan_incelemesi,Yalnizca inceleme kuyrugu. Takma ad ve aile bireyi karismasin diye tek basina merge tetiklemez
-R05,paylasilan_hat,R01 telefon anahtari,tam,tam_eslesme,bagla_ve_incele,Ayni hanede veya santralde paylasilan hat otomatik merge edilmez; sahip degismez
-R06,portal_lead_kimligi,oldugu gibi saklanir; kisi anahtari yapilmaz,anahtar_degil,yok,R01_veya_R02_yoksa_yeni_lead,Portalin kendi kimligi farkli olsa da normalize telefon veya e-posta eslesiyorsa routing calismaz
-R07,hayatta_kalan_kayit,en eski acik kayit,kural,ilk_acik_kayit,sahip_ve_asama_korunur,Bos alanlar yeni basvurudan dolabilir; dolu alan not ve asama uzerine yazilmaz. Yeni basvuru aktivite olarak kalir
-R08,kapali_kayit,kisi anahtari ile bag,tam,tam_eslesme,bagla_yeni_lead_acma,Satisi kapanmis karta sessizce baska temsilci adina yeni lead acilmaz. Ya ayni kisiye bagli yeni firsat ya da mevcut sahibe aktivite; ofis bunlardan birini yazar
-R09,sla_sayaci,atama aninda baslar,kural,ofis_esigi,mudur_uyarisi,Vakadaki ornek esik 15 dakikadir ve asildiginda satis mudurune uyari gider. Mukerrer basvuru yeni sayac acmaz
-R10,yeniden_atama,tek acik sahip,kural,yazili_ofis_kurali,nobetciye_devret,Vaka sonucu degildir. Uyariya ragmen aranmayan kayitta eski sahip notu kalir; ayni anda iki sahip olmaz; baglanmis mukerrer aktivite bu kuyruga girmez
+R01,telefon,E.164 (boşluk tire parantez temizliği; 00 ise +; TR yerel 0 ile başlayan hat +90),tam,tam_eslesme,mevcut_karta_bagla,Aynı normalize numara açık kayıtta varsa yeni lead açılmaz; aktivite mevcut sahibin kartına yazılır
+R02,eposta,trim ve küçük harf,tam,tam_eslesme,mevcut_karta_bagla,Aynı e-posta ikinci ve sonraki başvuruyu yeni lead yapmaz. Nokta veya artı takma adı varsayılan olarak aynı adres sayılmaz
+R03,telefon_veya_eposta,R01 ve R02 anahtarları,tam,anahtarlardan_biri,mevcut_karta_bagla,Vaka kuralı: telefon veya e-posta eşleşirse başvuru mevcut temsilciye aktivite olarak eklenir (örnek bildirim: Aynı Reklama Tekrar Tıkladı)
+R04,ad_soyad_ve_proje,Türkçe küçük harf; fazla boşluk tek; proje kimliği olduğu gibi,bulanik,otomatik_birlestirme_yok,insan_incelemesi,Yalnızca inceleme kuyruğu. Takma ad ve aile bireyi karışmasın diye tek başına merge tetiklemez
+R05,paylasilan_hat,R01 telefon anahtarı,tam,tam_eslesme,bagla_ve_incele,Aynı hanede veya santralde paylaşılan hat otomatik merge edilmez; sahip değişmez
+R06,portal_lead_kimligi,olduğu gibi saklanır; kişi anahtarı yapılmaz,anahtar_degil,yok,R01_veya_R02_yoksa_yeni_lead,Portalın kendi kimliği farklı olsa da normalize telefon veya e-posta eşleşiyorsa routing çalışmaz
+R07,hayatta_kalan_kayit,en eski açık kayıt,kural,ilk_acik_kayit,sahip_ve_asama_korunur,Boş alanlar yeni başvurudan dolabilir; dolu alan not ve aşama üzerine yazılmaz. Yeni başvuru aktivite olarak kalır
+R08,kapali_kayit,kişi anahtarı ile bağ,tam,tam_eslesme,bagla_yeni_lead_acma,Satışı kapanmış karta sessizce başka temsilci adına yeni lead açılmaz. Ya aynı kişiye bağlı yeni fırsat ya da mevcut sahibe aktivite; ofis bunlardan birini yazar
+R09,sla_sayaci,atama anında başlar,kural,ofis_esigi,mudur_uyarisi,Vakadaki örnek eşik 15 dakikadır ve aşıldığında satış müdürüne uyarı gider. Mükerrer başvuru yeni sayaç açmaz
+R10,yeniden_atama,tek açık sahip,kural,yazili_ofis_kurali,nobetciye_devret,Vaka sonucu değildir. Uyarıya rağmen aranmayan kayıtta eski sahip notu kalır; aynı anda iki sahip olmaz; bağlanmış mükerrer aktivite bu kuyruğa girmez
