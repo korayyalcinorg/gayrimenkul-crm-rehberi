@@ -95,6 +95,7 @@ Meta Ads / Google Ads / Portal / Web Sitesi / WhatsApp
 | [17](docs/17-sik-sorulan-sorular.md) | Gayrimenkul CRM sık sorulan sorular |
 | [18](docs/18-crm-secim-kriterleri.md) | CRM seçim kriterleri ve karşılaştırma matrisi |
 | [19](docs/19-crm-segmentli-retargeting-ve-offline-donusum.md) | CRM segmentli retargeting ve offline dönüşüm geri beslemesi |
+| [20](docs/20-crm-mukerrer-kayit-ve-sla-alarmi.md) | CRM mükerrer kayıt (deduplication) ve SLA alarmı |
 | [Sözlük](docs/crm-sozlugu.md) | Türkçe CRM ve lead yönetimi sözlüğü |
 
 ---
@@ -108,6 +109,7 @@ Meta Ads / Google Ads / Portal / Web Sitesi / WhatsApp
 - [CRM Günlük KPI Şablonu](templates/gunluk-crm-kpi.csv)
 - [CRM Seçim Matrisi CSV](templates/crm-secim-matrisi.csv)
 - [Offline Dönüşüm Olayları CSV](templates/offline-donusum-olaylari.csv)
+- [Mükerrer Kayıt Eşleştirme Kuralları CSV](templates/mukerrer-kayit-eslestirme-kurallari.csv)
 
 ## Teknik örnekler
 
@@ -243,6 +245,8 @@ Gayrimenkul CRM, lead yönetimi, WhatsApp otomasyonu ve dijital büyüme üzerin
 - https://www.korayyalcin.org/yayinlar-arastirmalar/no-response-leadler-nasil-geri-kazanilir/
 - https://www.korayyalcin.org/kitaplar/gayrimenkul-lead-donusum-ve-yanit-suresi-benchmark-raporu-2026/
 - https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-gayrimenkul-programmatic-retargeting-roas-optimizasyonu/ (DOI: 10.5281/zenodo.22850353)
+- https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-insaat-firmasi-crm-deduplication-ve-lead-routing/ (DOI: 10.5281/zenodo.22850349)
+- https://www.korayyalcin.org/yayinlar-arastirmalar/proptech-nedir-gayrimenkul-sektorunu-nasil-degistiriyor/
 
 ---
 
