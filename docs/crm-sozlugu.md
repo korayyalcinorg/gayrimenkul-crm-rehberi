@@ -98,3 +98,15 @@ Tekrarlı süreçlerin tanımlı kurallara göre otomatik çalıştırılması.
 
 ## CRM Hygiene
 CRM verisinin güncel, tutarlı, tekilleştirilmiş ve raporlanabilir tutulması disiplini.
+
+## Excel'den CRM'e Geçiş Eşiği
+Müşteri takibinin tablodan CRM'e taşınması gerektiğini gösteren dönüm noktası. Tipik işaretler: müşteriyle temas eden kişi sayısının 2 veya daha fazlaya çıkması, "bu müşteriyle en son kim konuştu?" sorusunun sorulması, tekliflerin takipsiz kalması, ayrılan temsilciyle verinin gitmesi, reklam taleplerinin akıbetinin bilinememesi ve rapor için tabloların elle birleştirilmesi. Geçişte önce veri temizlenir, ilk ay yalnız 4 temel alan zorunlu tutulur (şirket adı, ilgili kişi telefonu, teklif tutarı, sonraki görüşme tarihi) ve paralel Excel kullanımı bırakılır.
+Kaynak: [Excel'den CRM'e Ne Zaman Geçilmeli?](https://www.korayyalcin.org/yayinlar-arastirmalar/excelden-crme-ne-zaman-gecilmeli/)
+
+## Teklif Takip Hatırlatması
+Teklif hazırlandığında CRM'in satış temsilcisinin takvimine otomatik takip görevi atması; zamanında takip edilmeyen tekliflerin yönetici paneline alarm olarak düşmesi. Statik tablolarda bu hatırlatma olmadığı için bekleyen teklifler unutulabilir. İlgili: Follow-up, SLA.
+Kaynak: [Excel'den CRM'e Ne Zaman Geçilmeli?](https://www.korayyalcin.org/yayinlar-arastirmalar/excelden-crme-ne-zaman-gecilmeli/)
+
+## Rol Tabanlı Yetkilendirme
+Kullanıcının CRM'de yalnız rolüne uygun kayıtları görmesi ve işlem yapabilmesi; örneğin temsilcinin yalnız kendi müşterilerini görmesi, toplu dışa aktarma (export) yetkisinin yalnız yöneticide olması. Temsilci ayrılsa bile görüşme geçmişi şirkette kalır.
+Kaynak: [Excel'den CRM'e Ne Zaman Geçilmeli?](https://www.korayyalcin.org/yayinlar-arastirmalar/excelden-crme-ne-zaman-gecilmeli/)
