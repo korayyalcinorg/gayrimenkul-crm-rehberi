@@ -110,3 +110,11 @@ Kaynak: [Excel'den CRM'e Ne Zaman Geçilmeli?](https://www.korayyalcin.org/yayin
 ## Rol Tabanlı Yetkilendirme
 Kullanıcının CRM'de yalnız rolüne uygun kayıtları görmesi ve işlem yapabilmesi; örneğin temsilcinin yalnız kendi müşterilerini görmesi, toplu dışa aktarma (export) yetkisinin yalnız yöneticide olması. Temsilci ayrılsa bile görüşme geçmişi şirkette kalır.
 Kaynak: [Excel'den CRM'e Ne Zaman Geçilmeli?](https://www.korayyalcin.org/yayinlar-arastirmalar/excelden-crme-ne-zaman-gecilmeli/)
+
+## Dinamik Retargeting
+Siteyi ziyaret eden kişiye jenerik imaj reklamı yerine tam olarak ilgilendiği projenin ya da konut tipinin teklif görselini gösteren yeniden hedefleme. E-ticarette ürün kimliği (Product ID) üzerinden çalışan mantık, gayrimenkulde proje kimliği (Project ID) veya konut kimliği (Property ID) üzerinden kurulur. Örnek akış: reklam, proje detay sayfası, fiyat ve taksit tablosuna bakıp çıkış, dinamik banner, tekrar ziyaret ve form, CRM kaydı, satış ofisi randevusu. İlgili: CRM segmentli retargeting (bölüm 19).
+Kaynak: [Gayrimenkulde Dinamik Retargeting: Ziyaretçiyi Lead'e Dönüştürme](https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkul-dinamik-retargeting/)
+
+## Gayrimenkul Piksel Olayları
+Dinamik retargeting için sitede izlenen özel olaylar: `project_view` (belirli bir proje incelendi), `property_type_select` (1+1, 2+1 veya villa seçildi), `payment_plan_calc` (peşinat ve taksit simülatörü çalıştırıldı), `whatsapp_click` (WhatsApp butonuna tıklandı ama mesaj gönderilmedi). Bu sinyaller programatik retargeting motoruna (ör. RTB House, Google DV360, Meta DPA) iletilir.
+Kaynak: [Gayrimenkulde Dinamik Retargeting: Ziyaretçiyi Lead'e Dönüştürme](https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkul-dinamik-retargeting/)
